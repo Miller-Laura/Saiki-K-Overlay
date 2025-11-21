@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saiki K Overlay</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saiki K Stream Overlay</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
+        /* Container für das komplette Overlay */
+        .overlay-container {
+            position: relative;
+            width: 1920px;  /* Full HD-Auflösung */
+            height: 1080px;
             background: transparent;
+            overflow: hidden;
             font-family: Arial, sans-serif;
         }
-        .saiki-overlay {
+        
+        /* Hintergrundbild */
+        .mein-image {
             position: absolute;
-            top: 20px;
+            top: 0;
+            left: 0;
+            width: 25%;
+            height: 25%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        /* Antenne in Pink */
+        .antenna-pink {
+            position: absolute;
+            top: 50px;
+            left: 1000px;
+            width: 10px;
+            height: 80px;
+            background-color: #ff26c3; /* leuchtendes Pink */
+            border-radius: 20px;
+            transform: rotate(-15deg);
+            z-index: 1;
+        }
+
+        /* Antenne in Grün */
+        .antenna-green {
+            position: absolute;
+            top: 60px;
+            left: 1050px;
+            width: 10px;
+            height: 80px;
+            background-color: #39ff14; /* kräftiges Giftgrün */
+            border-radius: 20px;
+            transform: rotate(15deg);
+            z-index: 1;
+        }
+
+        /* Optional: kleiner Text-Block als Akzent */
+        .saiki-overlay-text {
+            position:absolute;
+            top: 150px;
             left: 20px;
-            background: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 10px;
+            background:  #39ff14;
+            color: #ffffff;
+            padding: 10px 15px;
             border-radius: 10px;
             font-size: 24px;
+            z-index: 2;
+            pointer-events: none; /* Klicks passieren durch */
         }
     </style>
 </head>
 <body>
-    <img src="saiki_k_image.png" alt="Saiki K" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-    <div class="saiki-overlay">
-        Saiki K ist hier!
+    <div class="overlay-container">
+        <!-- Hintergrundbild -->
+        <img src="saiki.jpg" alt="Saiki K" class="mein-image" />
+        
+        <!-- Antennen -->
+        <div class="antenna-pink"></div>
+        <div class="antenna-green"></div>
+        
+        <!-- Text-Akzent -->
+        <div class="saiki-overlay-text">Saiki K Learn Session!</div>
     </div>
 </body>
 </html>
