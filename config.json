@@ -11,12 +11,12 @@
     "warn": "#ffb347"
   },
   "layout": {
-    "chatSide": "right",
+    "chatSide": "left",
     "showSessionTimer": true,
     "showStats": true
   },
   "pomodoro": {
-    "focusMinutes": 25,
+    "focusMinutes": 30,
     "shortBreakMinutes": 5,
     "longBreakMinutes": 15,
     "cyclesUntilLongBreak": 4,
@@ -39,11 +39,11 @@
     "links": [
       {
         "label": "Twitch",
-        "url": "https://twitch.tv/deinname"
+        "url": "https://twitch.tv/rulacat"
       },
       {
         "label": "Discord",
-        "url": "https://discord.gg/DEININVITE"
+        "url": "https://discord.gg/https://discord.gg/88Mh8Chf"
       }
     ]
   }
