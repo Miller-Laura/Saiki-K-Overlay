@@ -1,0 +1,50 @@
+{
+  "theme": {
+    "bgColor": "#ffe4f2",
+    "panelColor": "#ffffffcc",
+    "accent": "#ff7eb9",
+    "accentStrong": "#ff4fa3",
+    "text": "#2b2b2b",
+    "muted": "#6b6b6b",
+    "timerColor": "#ff9ecd",
+    "ok": "#2bb673",
+    "warn": "#ffb347"
+  },
+  "layout": {
+    "chatSide": "right",
+    "showSessionTimer": true,
+    "showStats": true
+  },
+  "pomodoro": {
+    "focusMinutes": 25,
+    "shortBreakMinutes": 5,
+    "longBreakMinutes": 15,
+    "cyclesUntilLongBreak": 4,
+    "autoStartNext": true
+  },
+  "twitchChannel": "DEINCHANNEL",
+  "slideshowIntervalSeconds": 6,
+  "slideshowImages": [
+    "assets/images/slide1.svg",
+    "assets/images/slide2.svg",
+    "assets/images/slide3.svg"
+  ],
+  "quotes": [
+    "Kleine Schritte sind besser als keine.",
+    "Fokus schlägt Multitasking.",
+    "Konstanz ist mächtiger als Motivation.",
+    "Done ist besser als perfekt."
+  ],
+  "social": {
+    "links": [
+      {
+        "label": "Twitch",
+        "url": "https://twitch.tv/deinname"
+      },
+      {
+        "label": "Discord",
+        "url": "https://discord.gg/DEININVITE"
+      }
+    ]
+  }
+}

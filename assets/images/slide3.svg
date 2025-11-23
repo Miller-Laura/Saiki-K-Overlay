@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+<defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#ffd7f0"/><stop offset="1" stop-color="#ffc1ea"/></linearGradient></defs>
+<rect width="1200" height="600" fill="url(#g3)"/>
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="64" fill="#4a1233">Diashow – Slide 3</text>
+</svg>
