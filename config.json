@@ -22,7 +22,7 @@
     "cyclesUntilLongBreak": 4,
     "autoStartNext": true
   },
-  "twitchChannel": "DEINCHANNEL",
+  "twitchChannel": "rulacat",
   "slideshowIntervalSeconds": 6,
   "slideshowImages": [
     "assets/images/slide1.svg",
@@ -33,8 +33,10 @@
     "Kleine Schritte sind besser als keine.",
     "Fokus schlägt Multitasking.",
     "Konstanz ist mächtiger als Motivation.",
-    "Done ist besser als perfekt."
-  ],
+    "Done ist besser als perfekt.",
+    "Don't watch the clock; do what it does. Keep going.",
+    "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+    ],
   "social": {
     "links": [
       {
